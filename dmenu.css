@@ -165,3 +165,16 @@ button:hover{
     background-color: deepskyblue;
     cursor: pointer;
 }
+
+
+   var login1 = 'adm'
+        var senha1 = 'adm123'
+        function clicar(){
+          var entralogo = verificarUso2('', '')
+          console.log(entralogo)
+        }
+        function verificarUso2(senha, user){
+          if((senha == senha1) || user == login1){
+            return true
+          }else{
+            return false
