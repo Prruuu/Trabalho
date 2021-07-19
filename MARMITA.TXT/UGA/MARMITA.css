@@ -1,0 +1,24 @@
+body{
+    width:100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+/*
+em cima tamanhos da tela e da barra preta que fica aqui em baixo 
+*/
+
+.header-1 {
+    background-color:#262121 ;
+    height: 60px;
+}
+
+.txt{
+    transform: translateY(-270%) !important;
+    text-indent: 70px;
+    letter-spacing: 2px;    
+    line-height: 0.8;
+    text-align: left;
+}
