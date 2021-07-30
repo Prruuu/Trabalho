@@ -29,7 +29,7 @@
     <title>Marmi.txt</title>
     </head>
         <style>
-              body{
+            body{
                 font-family: monospace,Arial, Helvetica, sans-serif;
             }
             div{
@@ -50,13 +50,15 @@
                 border-radius: 10px;
             }
             button{
-                font-size: 15px;
+                display: inline-block;
+                padding: 10px 135px;
+                font-size: 25px;
                 cursor: pointer;
                 text-align: center;	
                 text-decoration: none;
                 outline: none;
                 color: rgb(0, 0, 0);
-                background-color: cyan;
+                background-color: rgb(25, 181, 254);
                 border: none;
                 border-radius: 15px;
                 box-shadow: 0 9px #999;
@@ -71,15 +73,16 @@
                 transform: translateY(4px);
               }
         </style>
-<body>
+  <body>
     <div>
-    <form action = "verlog.php" method = "POST">
-      <h1>
-        LOGIN
-      </h1>
-    <br><input type="text" placeholder="Nome" id="nome"></br>
-    <br><input type="password" placeholder="Senha" id="senha"></br>
-    <br><button>Enviar</button></br>
+      <form action = "verlog.php" method = "POST">
+        <h1>
+          LOGIN
+        </h1>
+        <br><input type="text" placeholder="Nome" id="nome" name="nome"></br>
+        <br><input type="password" placeholder="Senha" id="senha" name="senha"></br>
+        <br><button type="submit">Enviar</button></br>
+      </form>
     </div>
-    </body>
+  </body>
 </html>
